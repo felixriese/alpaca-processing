@@ -1,5 +1,5 @@
-Processing Scripts of the ALPACA Dataset
-========================================
+Processing Scripts for the ALPACA Dataset
+=========================================
 
 This repository is a temporary placeholder for the processing scripts of the
 ALPACA dataset [2].
@@ -28,14 +28,14 @@ Citation
 
 **Code:**
 
-[1] F. M. Riese, "Processing Scripts of the ALPACA Dataset," Zenodo, 2020.
+[1] F. M. Riese, "Processing Scripts for the ALPACA Dataset," Zenodo, 2020.
 `DOI: <>`_
 
 .. code:: bibtex
 
     @misc{riese2020processing,
         author = {Riese, Felix~M.},
-        title = {{Processing Scripts of the ALPACA Dataset}},
+        title = {{Processing Scripts for the ALPACA Dataset}},
         year = {2020},
         note = {To be published},
     }
