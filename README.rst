@@ -1,3 +1,7 @@
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.3871459.svg
+   :target: https://doi.org/10.5281/zenodo.3871459
+   :alt: Zenodo
+
 Processing Scripts for the ALPACA Dataset
 =========================================
 
@@ -29,7 +33,7 @@ Citation
 **Code:**
 
 [1] F. M. Riese, "Processing Scripts for the ALPACA Dataset," Zenodo, 2020.
-`DOI: <>`_
+`DOI:10.5281/zenodo.3871459 <https://doi.org/10.5281/zenodo.3871459>`_
 
 .. code:: bibtex
 
@@ -37,7 +41,8 @@ Citation
         author = {Riese, Felix~M.},
         title = {{Processing Scripts for the ALPACA Dataset}},
         year = {2020},
-        note = {To be published},
+        doi = {10.5281/zenodo.3871459},
+        publisher = {Zenodo},
     }
 
 **Dataset:**
