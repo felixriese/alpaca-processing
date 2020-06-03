@@ -2,11 +2,12 @@
    :target: https://doi.org/10.5281/zenodo.3871459
    :alt: Zenodo
 
-Processing Scripts for the ALPACA Dataset
-=========================================
+Processing Scripts of the ALPACA Dataset
+========================================
 
-This repository is a temporary placeholder for the processing scripts of the
-ALPACA dataset [2].
+This repository [1] includes various processing scripts of the ALPACA
+dataset [2] for hyperspectral and soil moisture data. The studies are published
+in [3].
 
 :License:
     `3-Clause BSD license <LICENSE>`_
@@ -20,10 +21,18 @@ ALPACA dataset [2].
 :Citation:
     see `Citation`_ and in the `bibtex <bibliography.bib>`_ file
 
-Notebooks
----------
 
-to be added ...
+Workflow
+----------
+
+1. `Process Soil Moisture Data <py/1_Process_SoilMoistureData.ipynb>`_
+2. `Process Full Dataset <py/2_Process_FullDataset.ipynb>`_
+3. `Dataset Shift Detection <py/3_DatasetShiftDetection.ipynb>`_
+4. `Estimation (Original Data) <py/4_Estimation_OriginalData.ipynb>`_
+5. `Estimation (Monte Carlo) <py/5_Estimation_MonteCarloAugmentedData.ipynb>`_
+6. `Plots <py/6_PlotData.ipynb>`_
+
+
 
 ----
 
@@ -47,8 +56,8 @@ Citation
 
 **Dataset:**
 
-[2] F. M. Riese, S. Schroers, J. Wienhöfer 6 S. Keller, "Aerial Peruvian Andes
-Campaign (ALPACA) Dataset 2019", KITopen, 2020.
+[2] F. M. Riese, S. Schroers, J. Wienhöfer, and S. Keller "Aerial Peruvian
+Andes Campaign (ALPACA) Dataset 2019," KITopen, 2020.
 `DOI:10.5445/IR/1000118082 <https://doi.org/10.5445/IR/1000118082>`_
 
 .. code:: bibtex
@@ -59,4 +68,22 @@ Campaign (ALPACA) Dataset 2019", KITopen, 2020.
         year = {2020},
         doi = {10.5445/IR/1000118082},
         organization = {KITopen},
+    }
+
+
+Code is Supplementary Material to
+----------------------------------
+
+[3] Felix M. Riese. "Development and Applications of Machine Learning Methods
+for Hyperspectral Data." PhD thesis. Karlsruhe, Germany: Karlsruhe Institute of
+Technology (KIT), 2020.
+
+.. code:: bibtex
+
+    @phdthesis{riese2020development,
+        author = {Riese, Felix~M.},
+        title = {{Development and Applications of Machine Learning Methods for Hyperspectral Data}},
+        school = {Karlsruhe Institute of Technology (KIT)},
+        year = {2020},
+        address = {Karlsruhe, Germany},
     }
