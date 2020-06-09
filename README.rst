@@ -9,6 +9,11 @@ This repository [1] includes various processing scripts of the ALPACA
 dataset [2] for hyperspectral and soil moisture data. The studies are published
 in [3].
 
+We can not guarantee completeness or correctness of the code. If you find bugs
+or if you have suggestions on how to improve the code, we encourage you to post
+your ideas as `GitHub issue
+<https://github.com/felixriese/alpaca-processing/issues>`_.
+
 :License:
     `3-Clause BSD license <LICENSE>`_
 
@@ -76,7 +81,7 @@ Code is Supplementary Material to
 
 [3] Felix M. Riese. "Development and Applications of Machine Learning Methods
 for Hyperspectral Data." PhD thesis. Karlsruhe, Germany: Karlsruhe Institute of
-Technology (KIT), 2020.
+Technology (KIT), 2020. `DOI:10.5445/IR/1000120067 <https://doi.org/10.5445/IR/1000120067>`_
 
 .. code:: bibtex
 
@@ -86,4 +91,5 @@ Technology (KIT), 2020.
         school = {Karlsruhe Institute of Technology (KIT)},
         year = {2020},
         address = {Karlsruhe, Germany},
+        doi = {10.5445/IR/1000120067},
     }
